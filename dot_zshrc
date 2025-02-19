@@ -23,4 +23,6 @@ alias stopsleep='systemd-inhibit --what=sleep:idle:handle-lid-switch sleep infin
 # Add your configurations here
 
 source /usr/share/doc/find-the-command/ftc.zsh
-# bind '"\C-f": "exec ~/.tmux/tmux-sessionizer.sh\n"'
+export EDITOR=code
+bindkey -s '^f' '~/.tmux_sessionizer.sh\n'
+
