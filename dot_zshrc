@@ -17,7 +17,7 @@ alias taa='tmux attach'
 alias fzcd='cd "$(dirname "$(fd -H | fzf)")"'
 alias lg='lazygit'
 alias titus='curl -fsSL christitus.com/linux | sh'
-alias stopsleep='systemd-inhibit --what=shutdown:sleep:idle:handle-power-key:handle-suspend-key:handle-hibernate-key:handle-lid-switch --who="user" --why="Preventing all sleep functions" sleep infinity'
+alias wake='systemd-inhibit --what=shutdown:sleep:idle:handle-power-key:handle-suspend-key:handle-hibernate-key:handle-lid-switch --who="user" --why="Preventing all sleep functions" sleep infinity'
 
 #  This is your file 
 # Add your configurations here
