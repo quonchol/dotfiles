@@ -1,4 +1,4 @@
-yay -S tmux nvim gammastep protonvpn-cli-community find-the-command syncthing ufw tlp
+yay -S tmux gammastep find-the-command syncthing ufw tlp
 sudo systemctl enable --now syncthing@phoenix
 sudo systemctl enable --now ufw tlp
 
