@@ -9,6 +9,7 @@
 
 #  Aliases 
 # Add aliases here
+alias v='nvim'
 alias n='gammastep -O 2700'
 alias tm='tmux'
 alias t='tmux new -s'

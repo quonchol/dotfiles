@@ -1,4 +1,4 @@
-yay -S tmux gammastep find-the-command syncthing ufw tlp
+yay -S tmux gammastep find-the-command syncthing ufw tlp neovim
 sudo systemctl enable --now syncthing@phoenix
 sudo systemctl enable --now ufw tlp
 
@@ -9,3 +9,4 @@ sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo systemctl restart ufw
 sudo ufw enable
+git clone https://github.com/p-nelly/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
