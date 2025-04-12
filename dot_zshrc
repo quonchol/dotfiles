@@ -20,7 +20,7 @@ alias lg='lazygit'
 alias reflect='sudo reflector -l 20 -p https --sort rate --save /etc/pacman.d/mirrorlist'
 alias titus='curl -fsSL christitus.com/linux | sh'
 alias wake='systemd-inhibit --what=shutdown:sleep:idle:handle-lid-switch --who="$(whoami)" --why="Preventing all sleep functions" sleep infinity'
-alias update-mirrors='sudo sh -c "reflector --verbose --latest 10 --sort rate --protocol https --save /etc/pacman.d/mirrorlist && echo \"Server = https://cloudflaremirrors.com/archlinux/\\\$repo/os/\\\$arch\" >> /etc/pacman.d/mirrorlist && pacman -Syy"'
+alias update-mirrors='sudo sh -c "reflector --verbose --latest 10 --sort rate --protocol https --save /etc/pacman.d/mirrorlist && pacman -Syy"'
 
 #  This is your file 
 # Add your configurations here
