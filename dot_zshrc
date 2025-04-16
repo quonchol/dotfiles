@@ -11,7 +11,6 @@
 # Add aliases here
 alias fan='asusctl profile -p'
 alias v='nvim'
-alias n='gammastep -O 2700'
 alias tm='tmux'
 alias t='tmux new -s'
 alias ta='tmux attach -t'
@@ -21,7 +20,6 @@ alias lg='lazygit'
 alias reflect='sudo reflector -l 20 -p https --sort rate --save /etc/pacman.d/mirrorlist'
 alias titus='curl -fsSL christitus.com/linux | sh'
 alias wake='systemd-inhibit --what=shutdown:sleep:idle:handle-lid-switch --who="$(whoami)" --why="Preventing all sleep functions" sleep infinity'
-alias update-mirrors='sudo sh -c "reflector --verbose --latest 20 --sort rate --protocol https --save /etc/pacman.d/mirrorlist && pacman -Syy"'
 
 #  This is your file 
 # Add your configurations here
