@@ -1,4 +1,4 @@
-yay -S tmux gammastep find-the-command syncthing ufw tlp neovim
+yay -S tmux find-the-command syncthing ufw tlp neovim hyprshade
 sudo systemctl enable --now syncthing@phoenix
 sudo systemctl enable --now ufw tlp
 
