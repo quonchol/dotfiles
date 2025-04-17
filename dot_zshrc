@@ -26,5 +26,5 @@ alias wake='systemd-inhibit --what=shutdown:sleep:idle:handle-lid-switch --who="
 
 source /usr/share/doc/find-the-command/ftc.zsh
 export EDITOR=code
-bindkey -s '^f' '~/.tmux_sessionizer.sh\n'
+bindkey -s '^f' '~/Scripts/tmux_sessionizer.sh\n'
 
