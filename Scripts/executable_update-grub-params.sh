@@ -33,5 +33,5 @@ sed -i "s|^GRUB_CMDLINE_LINUX_DEFAULT=.*|$NEW_LINE|" "$GRUB_FILE"
 echo "Updated GRUB_CMDLINE_LINUX_DEFAULT to:"
 echo "$NEW_LINE"
 
-# Prompt to update grub
-echo "Run 'sudo update-grub' or 'sudo grub-mkconfig -o /boot/grub/grub.cfg' to apply changes."
+# Prompt to update grub and update
+sudo grub-mkconfig -o /boot/grub/grub.cfg
