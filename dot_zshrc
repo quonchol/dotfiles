@@ -9,6 +9,9 @@
 
 #  Aliases 
 # Add aliases here
+alias pi='$PM install'
+alias pr='$PM remove'
+
 alias fan='asusctl profile -p'
 alias v='nvim'
 alias tm='tmux'
@@ -27,4 +30,5 @@ alias wake='systemd-inhibit --what=shutdown:sleep:idle:handle-lid-switch --who="
 source /usr/share/doc/find-the-command/ftc.zsh
 export EDITOR=code
 bindkey -s '^f' '~/Scripts/tmux_sessionizer.sh\n'
+export FZF_DEFAULT_OPTS="--preview-window=wrap:nohidden"
 
