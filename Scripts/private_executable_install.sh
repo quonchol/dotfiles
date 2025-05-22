@@ -3,6 +3,8 @@ git config --global user.name "Phoenix"
 
 yay -S tmux ufw tlp neovim hyprshade
 
+git clone https://github.com/nvchad/starter.git ~/.config/nvim
+
 sudo systemctl enable --now ufw tlp
 
 sudo ufw limit 22/tcp
