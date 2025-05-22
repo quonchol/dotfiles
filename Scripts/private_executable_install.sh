@@ -3,7 +3,7 @@ git config --global user.name "Phoenix"
 
 yay -S tmux ufw tlp neovim hyprshade
 
-git clone https://github.com/nvchad/starter.git ~/.config/nvim
+git clone https://github.com/lazyvim/starter.git ~/.config/nvim
 
 sudo systemctl enable --now ufw tlp
 
