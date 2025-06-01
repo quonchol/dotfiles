@@ -6,6 +6,7 @@ yay -S tmux ufw tlp neovim hyprshade
 git clone https://github.com/lazyvim/starter.git ~/.config/nvim
 
 sudo systemctl enable --now ufw tlp
+sudo systemctl mask systemd-rfkill.service systemd-rfkill.socket
 
 sudo ufw limit 22/tcp
 sudo ufw allow 80/tcp
