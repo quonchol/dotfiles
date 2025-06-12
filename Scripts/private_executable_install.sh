@@ -8,6 +8,9 @@ git clone https://github.com/lazyvim/starter.git ~/.config/nvim
 sudo systemctl enable --now ufw tlp
 sudo systemctl mask systemd-rfkill.service systemd-rfkill.socket
 
+sudo groupadd -r autologin
+sudo gpasswd -a phoenix autologin
+
 sudo ufw limit 22/tcp
 sudo ufw allow 80/tcp
 sudo ufw allow 443/tcp
