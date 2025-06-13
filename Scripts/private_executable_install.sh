@@ -1,7 +1,7 @@
 git config --global user.email "git.kept777@passmail.net"
 git config --global user.name "Phoenix"
 
-yay -S tmux ufw tlp neovim hyprshade
+yay -S tmux ufw tlp neovim hyprshade proton-vpn-gtk-app
 
 git clone https://github.com/lazyvim/starter.git ~/.config/nvim
 
