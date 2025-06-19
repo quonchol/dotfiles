@@ -1,6 +1,3 @@
-git clone --depth 1 https://github.com/hyde-project/hyde ~/.hyde
-cd ~/.hyde/Scripts && ./install.sh
-
 git config --global user.email "git.kept777@passmail.net"
 git config --global user.name "Phoenix"
 
