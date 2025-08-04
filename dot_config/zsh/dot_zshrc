@@ -21,6 +21,7 @@ alias reflect='sudo reflector -l 20 -p https --sort rate --save /etc/pacman.d/mi
 alias titus='curl -fsSL christitus.com/linux | sh'
 alias wake='systemd-inhibit --what=shutdown:sleep:idle:handle-lid-switch --who="$(whoami)" --why="Stay awake" sleep infinity'
 alias pac='pacman -Slq | fzf --multi --preview "pacman -Si {1}" | xargs -ro sudo pacman -S'
+alias pacr='pacman -Qqe | awk "{print \$1}" | fzf --multi --prompt="Select packages to remove: " | xargs -r sudo pacman -Rns'
 
 #  This is your file 
 # Add your configurations here
